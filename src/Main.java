@@ -1,9 +1,19 @@
 public class Main extends xxx{
 
     public static void main(String[] args) {
-        int x =10;
+        System.out.println("Start#####################");
         Main m = new Main();
+        System.out.println(
+                "########### end main"
+        );
         xxx xa = new xxx();
+        System.out.println(
+                "########### end xxx"
+        );
+        yyy df = new yyy();
+        System.out.println(
+                "########### end yyy"
+        );
     }
     static {
         System.out.println("sub static");
@@ -13,7 +23,7 @@ public class Main extends xxx{
     Main(){
         System.out.println("sub constructor");}
 }
- class xxx extends yyy{
+ class xxx{
     static {
         System.out.println("super static");
     }
